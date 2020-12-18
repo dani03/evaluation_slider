@@ -1,0 +1,27 @@
+.box-slide{
+  border: 2px solid black;
+  width: 800px;
+  height: 533px;
+}
+.image {
+  width: 10%;
+}
+.box-slide-image{
+  width: 800px;
+  height: 533px;
+}
+.box-slide-indicator {
+  width: 30px;
+}
+.box-slide-arrow{
+  display: flex;
+  align-items:center;
+  z-index: 1;
+
+}
+.box-slide-indicator{
+  cursor: pointer;
+}
+#arrow-right {
+  float: right;
+}
